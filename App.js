@@ -8,10 +8,6 @@ export default function App() {
   const [appIsReady, setAppIsReady] = useState(false);
 
   useEffect(() => {
-    SplashScreen.hideAsync();
-  }, []);
-
-  useEffect(() => {
     async function prepare() {
       SplashScreen.hideAsync();
       try {
