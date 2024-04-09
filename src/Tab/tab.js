@@ -95,15 +95,15 @@ export default function Tabs() {
 
   useEffect(() => {
     // // Check if the flag is set in AsyncStorage
-    // AsyncStorage.getItem("hasVisitedGetStarted").then((value) => {
-    //   if (value === null) {
-    //     // If the flag is not set, navigate to the "Get Started" page
-    //     AsyncStorage.setItem("hasVisitedGetStarted", "true");
-    //   } else {
-    //     // If the flag is set, navigate to the login page
-    //     navigation.navigate("login");
-    //   }
-    // });
+    AsyncStorage.getItem("hasVisitedGetStarted").then((value) => {
+      if (value === null) {
+        // If the flag is not set, navigate to the "Get Started" page
+        AsyncStorage.setItem("hasVisitedGetStarted", "true");
+      } else {
+        // If the flag is set, navigate to the login page
+        navigation.navigate("login");
+      }
+    });
   }, []);
 
   return (

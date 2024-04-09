@@ -8,8 +8,12 @@ export default function App() {
   const [appIsReady, setAppIsReady] = useState(false);
 
   useEffect(() => {
+    SplashScreen.hideAsync();
+  }, []);
+
+  useEffect(() => {
     async function prepare() {
-      await SplashScreen.hideAsync();
+      SplashScreen.hideAsync();
       try {
         await new Promise((resolve) => setTimeout(resolve, 2000));
       } catch (e) {
