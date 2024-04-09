@@ -2,7 +2,7 @@ import { StyleSheet } from "react-native";
 
 const loginstyle = StyleSheet.create({
   container: {
-    marginTop: 80,
+    marginTop: 65,
   },
   loginlogo: {
     width: 120,
@@ -72,7 +72,7 @@ const loginstyle = StyleSheet.create({
   },
   login_button: {
     width: "100%",
-    marginTop: 40,
+    marginTop: 50,
     height: 44,
     backgroundColor: "#1F2587",
     alignItems: "center",

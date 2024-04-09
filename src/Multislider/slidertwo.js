@@ -49,7 +49,7 @@ export default function Slidertwo() {
         <View style={{ alignItems: "center" }}>
           <Image
             source={require("../images/slidertwo.png")}
-            style={sliderstyle.slidertwo_image}
+            style={sliderstyle.sliderone_image}
             resizeMode="contain"
           />
           <Text style={sliderstyle.slider_heading}>Never Miss a Dose</Text>

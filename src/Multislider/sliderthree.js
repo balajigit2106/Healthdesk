@@ -47,7 +47,7 @@ export default function Sliderthree() {
           <Text style={sliderstyle.sliderthree_heading}>
             Smart Health Checkup
           </Text>
-          <View>
+          <View style={{ paddingHorizontal: 20 }}>
             <Text style={sliderstyle.slider_text}>
               Experience the future of healthcare with our smart checkup
               feature. Get instant health insights and personalized
